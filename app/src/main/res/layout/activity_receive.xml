@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Receive"
+        android:text="Location requests"
         android:fontFamily="@font/opensans"
         android:textSize="24sp"
         android:textColor="@color/white"

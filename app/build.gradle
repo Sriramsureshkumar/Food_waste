@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.aahaarapp"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -54,6 +54,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.firebase:geofire-java:3.0.0'
     implementation 'com.koalap:geofirestore-android:1.2.2'
+    implementation 'app.alan:sdk:4.12.0'
 
     //cardview libraries
     implementation 'androidx.cardview:cardview:1.0.0'

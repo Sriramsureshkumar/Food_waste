@@ -6,7 +6,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/normal_bg"
+    android:background="@drawable/girlstud"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,7 +19,7 @@
             android:text="My Dashboard"
             android:fontFamily="@font/opensans"
             android:textSize="24sp"
-            android:textColor="@color/white"
+            android:textColor="@color/mtrl_textinput_default_box_stroke_color"
             android:layout_margin="20dp"/>
         <GridLayout
             android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
                     <ImageView
                         android:layout_width="100dp"
@@ -49,11 +49,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Donate"
+                        android:text="Ask help"
                         android:fontFamily="@font/opensans"
-                        android:textSize="18dp"
+                        android:textSize="20dp"
                         android:textColor="@color/white"
                         android:layout_marginTop="130dp"
+                        android:textFontWeight="@integer/config_navAnimTime"
                         android:layout_gravity="center_horizontal" />
             </androidx.cardview.widget.CardView>
 
@@ -64,7 +65,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
                     <ImageView
                         android:layout_width="100dp"
@@ -75,11 +76,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Receive"
+                        android:text="Requests"
                         android:fontFamily="@font/opensans"
-                        android:textSize="18dp"
+                        android:textSize="20dp"
                         android:textColor="@color/white"
                         android:layout_marginTop="130dp"
+                        android:textFontWeight="@integer/config_navAnimTime"
                         android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
@@ -90,7 +92,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/design_default_color_primary"
                 android:layout_margin="10dp">
 
                 <ImageView
@@ -102,11 +104,12 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Food Map"
+                    android:text="BIT Map"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
@@ -117,7 +120,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/design_default_color_primary"
                 android:layout_margin="10dp">
                 <ImageView
                     android:layout_width="100dp"
@@ -130,9 +133,10 @@
                     android:layout_height="wrap_content"
                     android:text="My Pins"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal" />
             </androidx.cardview.widget.CardView>
 
@@ -143,7 +147,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
                 <ImageView
                     android:layout_width="100dp"
@@ -156,9 +160,10 @@
                     android:layout_height="wrap_content"
                     android:text="History"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal" />
             </androidx.cardview.widget.CardView>
 
@@ -169,7 +174,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
 
                 <ImageView
@@ -183,9 +188,10 @@
                     android:layout_height="wrap_content"
                     android:text="About Us"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
@@ -196,7 +202,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
 
                 <ImageView
@@ -210,9 +216,10 @@
                     android:layout_height="wrap_content"
                     android:text="Contact Us"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
@@ -223,7 +230,7 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-                app:cardBackgroundColor="@color/gray"
+                app:cardBackgroundColor="@color/material_on_surface_stroke"
                 android:layout_margin="10dp">
 
                 <ImageView
@@ -237,12 +244,24 @@
                     android:layout_height="wrap_content"
                     android:text="Log Out"
                     android:fontFamily="@font/opensans"
-                    android:textSize="18dp"
+                    android:textSize="20dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
+                    android:textFontWeight="@integer/config_navAnimTime"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
         </GridLayout>
+        <com.alan.alansdk.button.AlanButton
+            android:id="@+id/alan_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:visibility="visible"
+            app:button_horizontal_align="left"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
     </LinearLayout>
 </ScrollView>

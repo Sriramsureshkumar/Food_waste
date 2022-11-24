@@ -1,16 +1,27 @@
 package com.example.aahaarapp;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import com.alan.alansdk.AlanCallback;
+import com.alan.alansdk.AlanConfig;
+import com.alan.alansdk.button.AlanButton;
+import com.alan.alansdk.events.EventCommand;
 import com.google.firebase.auth.FirebaseAuth;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private AlanButton alanButton;
 
     CardView donate, receive, logout, foodmap, about, contact, mypin, history;
     FirebaseAuth fAuth;
@@ -72,8 +83,9 @@ public class MainActivity extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MyPin.class);
-                startActivity(intent);
+                Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
+                myWebLink.setData(Uri.parse("https://geobits.onrender.com/"));
+                startActivity(myWebLink);
             }
         });
         history.setOnClickListener(new View.OnClickListener ()
@@ -102,5 +114,32 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        /// Add AlanButton variable
+
+
+
+
+/// Define the project key
+        AlanConfig config = AlanConfig.builder().setProjectId("c91a5f3e152641217ff36498d1a072d22e956eca572e1d8b807a3e2338fdd0dc/stage").build();
+        alanButton = findViewById(R.id.alan_button);
+        alanButton.initWithConfig(config);
+
+        AlanCallback alanCallback = new AlanCallback() {
+            /// Handle commands from Alan Studio
+            @Override
+            public void onCommand(final EventCommand eventCommand) {
+                try {
+                    JSONObject command = eventCommand.getData();
+                    String commandName = command.getJSONObject("data").getString("command");
+                    Log.d("AlanButton", "onCommand: commandName: " + commandName);
+                } catch (JSONException e) {
+                    Log.e("AlanButton", e.getMessage());
+                }
+            }
+        };
+
+/// Register callbacks
+        alanButton.registerCallback(alanCallback);
+
     }
 }

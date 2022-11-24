@@ -1,13 +1,13 @@
 <resources>
-    <string name="welcome">Welcome to FWM</string>
-    <string name="app_name">Food Donation </string>
+    <string name="welcome">Welcome to BIT navigator</string>
+    <string name="app_name">Campus friend </string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="about">About Us</string>
     <string name="history">History</string>
-    <string name="aboutus">This App provides the right channels for compassionate citizens to begin and manage initiatives, that solve for hunger locally. Our mission is to make India hunger free</string>
+    <string name="aboutus">This App provides communication for students via a voicebot, it acts as navigation system. This app acts as Campus friend</string>
     <string name="login">Login</string>
-    <string name="donate">Donate</string>
+    <string name="donate">Help</string>
     <string name="message">Message</string>
     <string name="create_new">Not Registered! Click here to Register</string>
     <string name="not_register">Already Registered?</string>
@@ -26,7 +26,7 @@
     <string name="description">Description</string>
     <string name="submit">Submit</string>
 
-    <string name="foodmap">Food Map</string>
+    <string name="foodmap">BIT Map</string>
     <string name="mypin">My Pins</string>
 
     <string name="receiver_name">Receiver Name</string>

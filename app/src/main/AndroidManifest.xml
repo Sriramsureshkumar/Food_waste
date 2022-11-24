@@ -12,8 +12,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:icon="@drawable/fd_icon"
-        android:label="Food waste management"
+        android:icon="@drawable/normal_bg"
+        android:label="Campus friend"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AAHAARAPP"

@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bthre"
+    android:background="@drawable/normal_bg"
     android:padding="16dp"
     android:gravity="center"
     tools:context=".Logup">
@@ -35,9 +35,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             app:hintAnimationEnabled="true"
-            android:textColorHint="@color/black"
-            app:hintTextColor="@color/black"
-            app:boxStrokeColor="@color/black">
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            app:boxStrokeColor="@color/white">
 
             <EditText
                 android:id="@+id/email"
@@ -51,8 +51,8 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:background="@android:color/transparent"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:singleLine="true"/>
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -64,9 +64,9 @@
             android:layout_marginTop="5dp"
             app:passwordToggleEnabled="true"
             app:hintAnimationEnabled="true"
-            android:textColorHint="@color/black"
-            app:hintTextColor="@color/black"
-            app:boxStrokeColor="@color/black">
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white"
+            app:boxStrokeColor="@color/white">
 
             <EditText
                 android:id="@+id/password"
@@ -79,8 +79,8 @@
                 android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:background="@android:color/transparent"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
                 android:maxLines="1"
                 android:singleLine="true" />
 
