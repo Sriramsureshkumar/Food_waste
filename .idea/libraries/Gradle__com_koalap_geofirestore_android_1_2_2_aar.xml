@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.koalap:geofirestore-android:1.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc862972c5ba5397c0bdc46e83c654d0/jetified-geofirestore-android-1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc862972c5ba5397c0bdc46e83c654d0/jetified-geofirestore-android-1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc862972c5ba5397c0bdc46e83c654d0/jetified-geofirestore-android-1.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koalap/geofirestore-android/1.2.2/b2519f9d7cb3f32c05480c0b58b94403f3705066/geofirestore-android-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koalap/geofirestore-android/1.2.2/28070d2ce8f81a0d36df79561742554be4a44282/geofirestore-android-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
