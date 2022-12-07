@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 /// Define the project key
-        AlanConfig config = AlanConfig.builder().setProjectId("c91a5f3e152641217ff36498d1a072d22e956eca572e1d8b807a3e2338fdd0dc/stage").build();
+        AlanConfig config = AlanConfig.builder().setProjectId("eb3451c8a91a05c3ff62cef7aa5334ce2e956eca572e1d8b807a3e2338fdd0dc/stage").build();
         alanButton = findViewById(R.id.alan_button);
         alanButton.initWithConfig(config);
 
