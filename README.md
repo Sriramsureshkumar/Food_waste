@@ -50,8 +50,7 @@ Some screenshots of the Application:
     <td>History Screen</td>
     <td>About Screen</td>
   </tr>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/54005333/147683209-1f154899-b993-43e2-8536-d8fceb61cbe5.png" width="220"></td>
+  
     <td><img src="https://user-images.githubusercontent.com/54005333/147683224-83af7bc1-f8c6-4b6b-bd26-3ec9b13813a3.png" width="220"></td>
   </tr>
  </table>
